@@ -1,7 +1,7 @@
-let heroName: string = "";
-let heroXP: number = 0;
-let heroLevel: string = "";
-let heroCR: number = 0;
+let heroName = "";
+let heroXP = 0;
+let heroLevel = "";
+let heroCR = 0;
 
 
 function heroLevelCalc(xp) {
@@ -126,8 +126,8 @@ function heroDedCR(xp) {
 }
 
 function determineNivel() {
-	heroXP = document.getElementById('heroXP').value
-	heroName = document.getElementById('heroName').value
+	heroXP = document.getElementById('heroxp').value
+	heroName = document.getElementById('heroname').value
 
 	if (isNaN(heroXP)) {
 		return;
@@ -141,12 +141,12 @@ function determineNivel() {
 		return;
 	}
 
-	function heroDedCR(heroXP)
+	heroDedCR(heroXP)
 
-	document.getElementById("result").textContent = "O herói " + heroName + " está no nível" + string(heroLevel)
+	document.getElementById("result").textContent = "O herói " + heroName + " está no nível " + string(heroLevel)
 
 	document.getElementById("battle").textContent = `Com esse níve, o herói e mais ${
-	(heroCR / 18000) - 1
-	}% guerreiros conseguirão derrotar o dragão.`
+	Math.round((18000 / heroCR / ) - 1)
+	} guerreiros de mesmo nível conseguirão derrotar o dragão.`
 
 }
