@@ -124,3 +124,29 @@ function heroDedCR(xp) {
 			break;
 	}
 }
+
+function determineNivel() {
+	heroXP = document.getElementById('heroXP').value
+	heroName = document.getElementById('heroName').value
+
+	if (isNaN(heroXP)) {
+		return;
+	}
+
+	heroLevelCalc(heroXP)
+
+	if (heroLevel) {
+
+	} else {
+		return;
+	}
+
+	function heroDedCR(heroXP)
+
+	document.getElementById("result").textContent = "O herói " + heroName + " está no nível" + string(heroLevel)
+
+	document.getElementById("battle").textContent = `Com esse níve, o herói e mais ${
+	(heroCR / 18000) - 1
+	}% guerreiros conseguirão derrotar o dragão.`
+
+}
