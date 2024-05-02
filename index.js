@@ -119,7 +119,7 @@ function heroDedCR(xp) {
 			heroCR = 10900; //nivel 19
 			break;
 
-		default
+		default:
 			heroCR = 12700; //nivel 20
 			break;
 	}
