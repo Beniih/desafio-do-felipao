@@ -133,6 +133,16 @@ function determineNivel() {
 		return;
 	}
 
+	if (heroName){
+		//check if hero has a name
+	} else {
+		return;
+	}
+
+	if (heroXP == 0) {
+		return;
+	}
+
 	heroLevelCalc(heroXP);
 
 	heroDedCR(heroXP);
@@ -144,7 +154,7 @@ function determineNivel() {
 
 	battle.textContent = `Com esse nível, o herói e mais ${
 	Math.ceil((18000 / heroCR) - 1)
-	} guerreiros com a mesma capacidade conseguirão derrotar o dragão.`;
+	} guerreiros conseguirão derrotar o dragão!`;
 
 	document.getElementById("return-content").style.display = "flex";
 	document.getElementById("userdata").style.display = "none";

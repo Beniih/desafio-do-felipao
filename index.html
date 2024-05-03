@@ -16,7 +16,9 @@
     <header>
         <h1 id="title" class="align-center">CLASSIFICADOR DE NÍVEL DE HERÓI</h1>
     </header>
-
+        <h2>Um dragão vermelho adulto está atacando seu vilarejo!<br>
+        Para salvar a vila você tem a sua disposição guerreiros do mesmo nível que o seu.<br>
+        Quantos guerreiros será ue são necessários? Vamos calcular:</h2>
     <form id="userdata" onsubmit="return false;">
         <div class="form-divs">
             <label id="name-label" for="heroname">Nome do herói</label>
@@ -27,14 +29,14 @@
             <input type="number" id="heroxp" name="heroxp" class="form-input" placeholder="xp" required>
         </div>
         <div class="form-divs">
-            <button id="submit" class="submit-button" onclick="determineNivel()">CALCULAR</button>
+            <button type="submit" id="submit" class="submit-button" onclick="determineNivel()">CALCULAR</button>
 
         </div>
     </form>
 
     <div id="return-content">
-        <div id="result">123</div>
-        <div id="battle">123</div>
+        <div id="result"></div>
+        <div id="battle"></div>
     </div>
     <script src="./resources/javascript/app.js"></script>
 </body>
