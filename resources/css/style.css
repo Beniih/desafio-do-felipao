@@ -6,17 +6,17 @@
 }
 
 body {
-    background: url(resources/images/ardav.png);
+    background: url('../images/ardav.png');
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     display:flex;
-    justify-content: center;
+    justify-content:center;
     flex-direction:column;
     margin: 0;
     padding: 0;
     align-items:center;
-    height:100dvh;
+    height:100vh;
 }
 
 h1 {
