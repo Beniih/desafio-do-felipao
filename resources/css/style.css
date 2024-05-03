@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(/resources/images/ardav.png);
+    background: url(resources/images/ardav.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
