@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Freeman', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('../images/ardav.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;
+    align-items:center;
+    height:100dvh;
+}
+
+h1 {
+    background-color: #f7d3deb6;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+#userdata {
+    background-color: #f7d3deb6;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 350px;
+    height: auto;
+  }
+
+#return-content {
+    background-color: #f7d3deb6;
+    display: none;
+    justify-content: center;
+    flex-direction:column;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 350px;
+    height: auto;
+}
+
+.align-center {
+    text-align: center;
+  }
+
+.form-divs{
+  margin: auto auto 1.0rem auto
+}
