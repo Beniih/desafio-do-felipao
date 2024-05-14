@@ -27,3 +27,7 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+## Customizações
+
+Para dar uma cara mais única ao projeto, foi inserido um cálculo baseado em D&D, levando em conta a Classe de Dificuldade de um Dragão Vermelho Adulto em relação ao XP do personagem, convertendo esse XP para níveis de D&D.
