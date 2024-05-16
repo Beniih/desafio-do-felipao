@@ -1,6 +1,8 @@
 # desafio-do-felipao
  Classificador de Nivel de Heroi
 
+[Link do projeto no GitPages](https://beniih.github.io/desafio-do-felipao/)
+
 Desafio proposto no curso de Base em Lógica de Programação para Jogos.
 
 **O Que deve ser utilizado**
