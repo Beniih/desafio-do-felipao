@@ -8,12 +8,12 @@
 body {
     background: url('../images/ardAV.png');
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     background-position:center;
     display:flex;
     justify-content:center;
     flex-direction:column;
-    margin: 0;
+    margin-top: 15vh;
     padding: 0;
     align-items:center;
     height:100vh;
@@ -43,7 +43,7 @@ h2 {
     margin: 30px auto;
     padding: 30px;
     max-width: 350px;
-    height: auto;]
+    height: auto;
   }
 
 #return-content {
@@ -66,6 +66,7 @@ h2 {
   margin: auto auto 1.0rem auto;
   font-size:max(1.0vw, 15px);
 }
+
 .submit-button{
   display: block;
   border: none;
